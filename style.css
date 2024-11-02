@@ -1,0 +1,33 @@
+div {
+    width: 100vw;
+    height: 100vh;
+    background-clip: content-box;
+    padding-bottom: 10vh;
+    border: 5px solid black;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/d3/Junkers_Ju_87Ds_in_flight_Oct_1943.jpg');
+}
+
+.container1{
+    background-repeat: repeat;
+}
+
+.container2 { 
+    background-repeat: no-repeat;
+    background-color: aquamarine;
+}
+
+.container3 {
+    background-repeat: space;
+}
+
+.container4 {
+    background-repeat: round;
+}
+
+.container5 {
+    background-repeat: repeat-x;
+}
+
+.container6 {
+    background-repeat: repeat-y;
+}
